@@ -99,6 +99,7 @@
 			children = (
 				90163DF31F62D43F0026FAC4 /* AppDelegate.swift */,
 				90163DF51F62D43F0026FAC4 /* ViewController.swift */,
+				90163E211F6416820026FAC4 /* Features */,
 				90163DF71F62D43F0026FAC4 /* Main.storyboard */,
 				90163DFA1F62D43F0026FAC4 /* Assets.xcassets */,
 				90163DFC1F62D43F0026FAC4 /* LaunchScreen.storyboard */,
@@ -123,6 +124,125 @@
 				90163E151F62D43F0026FAC4 /* Info.plist */,
 			);
 			path = SampleRESTClientUITests;
+			sourceTree = "<group>";
+		};
+		90163E211F6416820026FAC4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				90163E221F6416820026FAC4 /* PostList */,
+				90163E291F6416820026FAC4 /* UserList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		90163E221F6416820026FAC4 /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				90163E231F6416820026FAC4 /* Cells */,
+				90163E241F6416820026FAC4 /* DataManagers */,
+				90163E251F6416820026FAC4 /* Models */,
+				90163E261F6416820026FAC4 /* Routers */,
+				90163E271F6416820026FAC4 /* ViewControllers */,
+				90163E281F6416820026FAC4 /* ViewModels */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		90163E231F6416820026FAC4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		90163E241F6416820026FAC4 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		90163E251F6416820026FAC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90163E261F6416820026FAC4 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		90163E271F6416820026FAC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90163E281F6416820026FAC4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		90163E291F6416820026FAC4 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				90163E2A1F6416820026FAC4 /* Cells */,
+				90163E2B1F6416820026FAC4 /* DataManagers */,
+				90163E2C1F6416820026FAC4 /* Models */,
+				90163E2D1F6416820026FAC4 /* Routers */,
+				90163E2E1F6416820026FAC4 /* ViewControllers */,
+				90163E2F1F6416820026FAC4 /* ViewModels */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		90163E2A1F6416820026FAC4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		90163E2B1F6416820026FAC4 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		90163E2C1F6416820026FAC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90163E2D1F6416820026FAC4 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		90163E2E1F6416820026FAC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90163E2F1F6416820026FAC4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
