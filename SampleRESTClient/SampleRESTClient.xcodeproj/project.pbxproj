@@ -17,6 +17,11 @@
 		90163E331F6419AD0026FAC4 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90163E321F6419AD0026FAC4 /* Users.storyboard */; };
 		90163E351F641BAC0026FAC4 /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E341F641BAC0026FAC4 /* UsersRouter.swift */; };
 		90163E371F641BBC0026FAC4 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E361F641BBC0026FAC4 /* UsersViewModel.swift */; };
+		90163E411F6436EB0026FAC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */; };
+		90163E421F6436F10026FAC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */; };
+		90163E431F6436F10026FAC4 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90163E451F6436F90026FAC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */; };
+		90163E461F6436FA0026FAC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		90163E441F6436F20026FAC4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				90163E431F6436F10026FAC4 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		90163DF01F62D43F0026FAC4 /* SampleRESTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRESTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90163DF31F62D43F0026FAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +72,7 @@
 		90163E321F6419AD0026FAC4 /* Users.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
 		90163E341F641BAC0026FAC4 /* UsersRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
 		90163E361F641BBC0026FAC4 /* UsersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90163E421F6436F10026FAC4 /* SwiftyJSON.framework in Frameworks */,
+				90163E411F6436EB0026FAC4 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90163E451F6436F90026FAC4 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90163E461F6436FA0026FAC4 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +129,7 @@
 			children = (
 				90163DF31F62D43F0026FAC4 /* AppDelegate.swift */,
 				90163DF51F62D43F0026FAC4 /* ViewController.swift */,
+				90163E3F1F6436D60026FAC4 /* Frameworks */,
 				90163E211F6416820026FAC4 /* Features */,
 				90163DFA1F62D43F0026FAC4 /* Assets.xcassets */,
 				90163DFC1F62D43F0026FAC4 /* LaunchScreen.storyboard */,
@@ -254,6 +279,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		90163E3F1F6436D60026FAC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90163E401F6436EB0026FAC4 /* SwiftyJSON.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +297,7 @@
 				90163DEC1F62D43F0026FAC4 /* Sources */,
 				90163DED1F62D43F0026FAC4 /* Frameworks */,
 				90163DEE1F62D43F0026FAC4 /* Resources */,
+				90163E441F6436F20026FAC4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -538,6 +572,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleRESTClient/Frameworks",
+				);
 				INFOPLIST_FILE = SampleRESTClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AB.SampleRESTClient;
@@ -550,6 +588,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleRESTClient/Frameworks",
+				);
 				INFOPLIST_FILE = SampleRESTClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AB.SampleRESTClient;
@@ -563,6 +605,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleRESTClient/Frameworks",
+				);
 				INFOPLIST_FILE = SampleRESTClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AB.SampleRESTClientTests;
@@ -577,6 +623,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleRESTClient/Frameworks",
+				);
 				INFOPLIST_FILE = SampleRESTClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AB.SampleRESTClientTests;
@@ -590,6 +640,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleRESTClient/Frameworks",
+				);
 				INFOPLIST_FILE = SampleRESTClientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AB.SampleRESTClientUITests;
@@ -603,6 +657,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleRESTClient/Frameworks",
+				);
 				INFOPLIST_FILE = SampleRESTClientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AB.SampleRESTClientUITests;
