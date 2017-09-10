@@ -41,8 +41,13 @@ class UsersRouter: Router {
         switch route {
         case .posts:
             
-            //TODO: To be implemented
-            break
+            let viewController = PostsViewController.getInstance()
+            
+            if let parameters = parameters as? String {
+                let viewModel = PostsViewModel(userId: parameters)
+                viewController.viewModel = viewModel
+            }
+            context.navigationController?.pushViewController(viewController, animated: true)
         }
     }
 }
