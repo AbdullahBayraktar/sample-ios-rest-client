@@ -99,7 +99,19 @@ extension UsersViewController: UITableViewDelegate {
         let user = userViewModel.modelForSelectedCell()
         
         if let user = user as? User {
-            //userDetailsTapped(withModel: user)
+            userTapped(withModel: user)
         }
     }
 }
+
+//MARK: Route
+
+extension UsersViewController {
+    
+    fileprivate func userTapped(withModel model: User) {
+        router.route(to: Route.posts.rawValue,
+                     from: self,
+                     parameters: model.id)
+    }
+}
+

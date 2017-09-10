@@ -42,6 +42,16 @@
 		90163E811F64BC060026FAC4 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E801F64BC060026FAC4 /* UsersResponse.swift */; };
 		90163E831F64BDDD0026FAC4 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E821F64BDDD0026FAC4 /* Launcher.swift */; };
 		90163E861F64BEDE0026FAC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E851F64BEDE0026FAC4 /* Constants.swift */; };
+		90163E8C1F6567DE0026FAC4 /* PostsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E8B1F6567DE0026FAC4 /* PostsDataManager.swift */; };
+		90163E8E1F6567E90026FAC4 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E8D1F6567E90026FAC4 /* PostsViewController.swift */; };
+		90163E901F6567F30026FAC4 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E8F1F6567F30026FAC4 /* PostsViewModel.swift */; };
+		90163E921F6567FA0026FAC4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E911F6567FA0026FAC4 /* Post.swift */; };
+		90163E941F6568090026FAC4 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E931F6568090026FAC4 /* PostsTableViewCell.swift */; };
+		90163E961F65692F0026FAC4 /* PostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E951F65692F0026FAC4 /* PostsResponse.swift */; };
+		90910B3A1F65700200CFFDE6 /* PostCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B391F65700200CFFDE6 /* PostCellViewModel.swift */; };
+		90910B3C1F6570CD00CFFDE6 /* PostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90910B3B1F6570CD00CFFDE6 /* PostsTableViewCell.xib */; };
+		90910B3E1F65730E00CFFDE6 /* PostsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B3D1F65730E00CFFDE6 /* PostsRouter.swift */; };
+		90910B401F65743900CFFDE6 /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90910B3F1F65743900CFFDE6 /* Posts.storyboard */; };
 		90910B421F65749E00CFFDE6 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */; };
 		90910B441F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */; };
 /* End PBXBuildFile section */
@@ -111,6 +121,16 @@
 		90163E801F64BC060026FAC4 /* UsersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
 		90163E821F64BDDD0026FAC4 /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		90163E851F64BEDE0026FAC4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		90163E8B1F6567DE0026FAC4 /* PostsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsDataManager.swift; sourceTree = "<group>"; };
+		90163E8D1F6567E90026FAC4 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		90163E8F1F6567F30026FAC4 /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		90163E911F6567FA0026FAC4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		90163E931F6568090026FAC4 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		90163E951F65692F0026FAC4 /* PostsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsResponse.swift; sourceTree = "<group>"; };
+		90910B391F65700200CFFDE6 /* PostCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCellViewModel.swift; sourceTree = "<group>"; };
+		90910B3B1F6570CD00CFFDE6 /* PostsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostsTableViewCell.xib; sourceTree = "<group>"; };
+		90910B3D1F65730E00CFFDE6 /* PostsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRouter.swift; sourceTree = "<group>"; };
+		90910B3F1F65743900CFFDE6 /* Posts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
 		90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
 		90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+storyboards.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +237,7 @@
 		90163E221F6416820026FAC4 /* PostList */ = {
 			isa = PBXGroup;
 			children = (
+				90910B3F1F65743900CFFDE6 /* Posts.storyboard */,
 				90163E231F6416820026FAC4 /* Cells */,
 				90163E241F6416820026FAC4 /* DataManagers */,
 				90163E251F6416820026FAC4 /* Models */,
@@ -230,6 +251,8 @@
 		90163E231F6416820026FAC4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				90163E931F6568090026FAC4 /* PostsTableViewCell.swift */,
+				90910B3B1F6570CD00CFFDE6 /* PostsTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -237,6 +260,7 @@
 		90163E241F6416820026FAC4 /* DataManagers */ = {
 			isa = PBXGroup;
 			children = (
+				90163E8B1F6567DE0026FAC4 /* PostsDataManager.swift */,
 			);
 			path = DataManagers;
 			sourceTree = "<group>";
@@ -244,6 +268,8 @@
 		90163E251F6416820026FAC4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90163E911F6567FA0026FAC4 /* Post.swift */,
+				90163E951F65692F0026FAC4 /* PostsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +277,7 @@
 		90163E261F6416820026FAC4 /* Routers */ = {
 			isa = PBXGroup;
 			children = (
+				90910B3D1F65730E00CFFDE6 /* PostsRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -258,6 +285,7 @@
 		90163E271F6416820026FAC4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				90163E8D1F6567E90026FAC4 /* PostsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -265,6 +293,8 @@
 		90163E281F6416820026FAC4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				90163E8F1F6567F30026FAC4 /* PostsViewModel.swift */,
+				90910B391F65700200CFFDE6 /* PostCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -341,6 +371,7 @@
 			children = (
 				90163E391F6430BE0026FAC4 /* Router.swift */,
 				90163E3B1F6431020026FAC4 /* CellRepresentable.swift */,
+				90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -358,6 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				90163E571F64420C0026FAC4 /* NSObject+Additions.swift */,
+				90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -494,7 +526,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90910B401F65743900CFFDE6 /* Posts.storyboard in Resources */,
 				90163E551F6441260026FAC4 /* UsersTableViewCell.xib in Resources */,
+				90910B3C1F6570CD00CFFDE6 /* PostsTableViewCell.xib in Resources */,
 				90163DFE1F62D43F0026FAC4 /* LaunchScreen.storyboard in Resources */,
 				90163E331F6419AD0026FAC4 /* Users.storyboard in Resources */,
 				90163DFB1F62D43F0026FAC4 /* Assets.xcassets in Resources */,
@@ -522,9 +556,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90163E8C1F6567DE0026FAC4 /* PostsDataManager.swift in Sources */,
+				90163E921F6567FA0026FAC4 /* Post.swift in Sources */,
+				90910B3E1F65730E00CFFDE6 /* PostsRouter.swift in Sources */,
 				90163E7D1F64B8DB0026FAC4 /* AlamofireWrapper.swift in Sources */,
+				90910B3A1F65700200CFFDE6 /* PostCellViewModel.swift in Sources */,
 				90163E831F64BDDD0026FAC4 /* Launcher.swift in Sources */,
 				90163E4C1F643CF00026FAC4 /* Address.swift in Sources */,
+				90163E8E1F6567E90026FAC4 /* PostsViewController.swift in Sources */,
+				90163E961F65692F0026FAC4 /* PostsResponse.swift in Sources */,
 				90163E311F6417C10026FAC4 /* UsersViewController.swift in Sources */,
 				90163E4E1F643CF70026FAC4 /* Company.swift in Sources */,
 				90163E531F6440D90026FAC4 /* UsersTableViewCell.swift in Sources */,
@@ -535,11 +575,15 @@
 				90163E7F1F64BAE40026FAC4 /* UsersDataManager.swift in Sources */,
 				90163E3A1F6430BE0026FAC4 /* Router.swift in Sources */,
 				90163E581F64420C0026FAC4 /* NSObject+Additions.swift in Sources */,
+				90910B441F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift in Sources */,
 				90163E3C1F6431020026FAC4 /* CellRepresentable.swift in Sources */,
+				90163E941F6568090026FAC4 /* PostsTableViewCell.swift in Sources */,
 				90163E7A1F64B8750026FAC4 /* DataManager.swift in Sources */,
+				90910B421F65749E00CFFDE6 /* StoryboardIdentifier.swift in Sources */,
 				90163E371F641BBC0026FAC4 /* UsersViewModel.swift in Sources */,
 				90163E811F64BC060026FAC4 /* UsersResponse.swift in Sources */,
 				90163E861F64BEDE0026FAC4 /* Constants.swift in Sources */,
+				90163E901F6567F30026FAC4 /* PostsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,6 +847,7 @@
 				90163E1A1F62D43F0026FAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90163E1B1F62D43F0026FAC4 /* Build configuration list for PBXNativeTarget "SampleRESTClientTests" */ = {
 			isa = XCConfigurationList;
@@ -811,6 +856,7 @@
 				90163E1D1F62D43F0026FAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90163E1E1F62D43F0026FAC4 /* Build configuration list for PBXNativeTarget "SampleRESTClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -819,6 +865,7 @@
 				90163E201F62D43F0026FAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
