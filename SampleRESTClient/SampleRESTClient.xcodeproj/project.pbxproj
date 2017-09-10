@@ -54,6 +54,7 @@
 		90910B401F65743900CFFDE6 /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90910B3F1F65743900CFFDE6 /* Posts.storyboard */; };
 		90910B421F65749E00CFFDE6 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */; };
 		90910B441F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */; };
+		90910B461F6601E900CFFDE6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B451F6601E900CFFDE6 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,7 @@
 		90910B3F1F65743900CFFDE6 /* Posts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
 		90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
 		90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+storyboards.swift"; sourceTree = "<group>"; };
+		90910B451F6601E900CFFDE6 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +416,7 @@
 			isa = PBXGroup;
 			children = (
 				90163E851F64BEDE0026FAC4 /* Constants.swift */,
+				90910B451F6601E900CFFDE6 /* Colors.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				90163E3A1F6430BE0026FAC4 /* Router.swift in Sources */,
 				90163E581F64420C0026FAC4 /* NSObject+Additions.swift in Sources */,
 				90910B441F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift in Sources */,
+				90910B461F6601E900CFFDE6 /* Colors.swift in Sources */,
 				90163E3C1F6431020026FAC4 /* CellRepresentable.swift in Sources */,
 				90163E941F6568090026FAC4 /* PostsTableViewCell.swift in Sources */,
 				90163E7A1F64B8750026FAC4 /* DataManager.swift in Sources */,
