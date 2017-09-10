@@ -11,9 +11,13 @@ import UIKit
 class UsersTableViewCell: UITableViewCell {
     
     //MARK: IBOutlets
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
     
     //MARK: Lifecycle
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -37,8 +41,12 @@ class UsersTableViewCell: UITableViewCell {
     /**
      Assign the fields of user to UI components
      */
-    func setupLogic(with user: User) {
+    func setupLogic(with user: User,
+                    usersAddress: String) {
         
-        //TODO: To be implemented
+        usernameLabel.text = "@" + user.username
+        nameLabel.text = user.name
+        emailLabel.text = user.email
+        addressLabel.text = usersAddress
     }
 }

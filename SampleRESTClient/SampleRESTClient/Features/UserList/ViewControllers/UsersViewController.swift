@@ -32,6 +32,7 @@ class UsersViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        fetchData()
         
         setupNavigationBar()
         setupTableView()
@@ -56,6 +57,19 @@ class UsersViewController: UIViewController {
         //TODO: Localize Title
         self.title = "Users"
     }
+    
+    //MARK: Data
+    
+    func fetchData() {
+        
+        viewModel.fetchUsers { [weak self](error) in
+            
+            if error == nil {
+                
+                self?.tableView.reloadData()
+            }
+        }
+    }
 }
 
 //MARK: UITableViewDataSource
@@ -71,7 +85,7 @@ extension UsersViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 0//viewModel.usersViewModels.count
+        return viewModel.usersViewModels.count
     }
 }
 

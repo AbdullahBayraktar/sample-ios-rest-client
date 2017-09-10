@@ -25,6 +25,15 @@ class UserCellViewModel: NSObject {
     init(user: User) {
         self.user = user
     }
+    
+    func address() -> String {
+        let addressString = user.address.street +
+                            user.address.suite +
+                            user.address.city +
+                            user.address.zipcode
+        
+        return addressString
+    }
 }
 
 //MARK: CellRepresentable
@@ -50,7 +59,7 @@ extension UserCellViewModel: CellRepresentable {
         
         let cell: UsersTableViewCell = tableView.dequeueReusableCell(withIdentifier: UsersTableViewCell.className) as! UsersTableViewCell!
         
-        cell.setupLogic(with: user)
+        cell.setupLogic(with: user, usersAddress: address())
         cell.tag = indexPath.row
         
         return cell

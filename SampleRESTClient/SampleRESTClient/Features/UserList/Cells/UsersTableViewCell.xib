@@ -11,13 +11,59 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UsersTableViewCell" id="DUI-yi-Z9Y" customClass="UsersTableViewCell">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UsersTableViewCell" id="DUI-yi-Z9Y" customClass="UsersTableViewCell" customModule="SampleRESTClient" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DUI-yi-Z9Y" id="ftg-Gz-jlJ">
                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="           " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4T5-8N-aVM">
+                        <rect key="frame" x="16" y="8" width="48.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="           " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVC-2Y-HiV">
+                        <rect key="frame" x="80.5" y="8" width="48.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="           " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4X-X2-YUg">
+                        <rect key="frame" x="16" y="37" width="343" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="           " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHL-29-Sdo">
+                        <rect key="frame" x="16" y="66" width="343" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FVC-2Y-HiV" secondAttribute="trailing" priority="250" constant="16" id="08h-ll-UTg"/>
+                    <constraint firstItem="FVC-2Y-HiV" firstAttribute="leading" secondItem="4T5-8N-aVM" secondAttribute="trailing" constant="16" id="13f-zH-BDx"/>
+                    <constraint firstItem="xHL-29-Sdo" firstAttribute="leading" secondItem="W4X-X2-YUg" secondAttribute="leading" id="4mz-IP-NJo"/>
+                    <constraint firstItem="W4X-X2-YUg" firstAttribute="top" secondItem="4T5-8N-aVM" secondAttribute="bottom" constant="8" id="7ee-J7-tSr"/>
+                    <constraint firstItem="4T5-8N-aVM" firstAttribute="top" secondItem="ftg-Gz-jlJ" secondAttribute="top" constant="8" id="CTc-hA-Uli"/>
+                    <constraint firstItem="xHL-29-Sdo" firstAttribute="top" secondItem="W4X-X2-YUg" secondAttribute="bottom" constant="8" id="IUF-sZ-udP"/>
+                    <constraint firstAttribute="trailing" secondItem="xHL-29-Sdo" secondAttribute="trailing" constant="16" id="Q5Q-bW-yEI"/>
+                    <constraint firstAttribute="bottom" secondItem="xHL-29-Sdo" secondAttribute="bottom" constant="13" id="Raz-Ui-7vs"/>
+                    <constraint firstItem="W4X-X2-YUg" firstAttribute="leading" secondItem="4T5-8N-aVM" secondAttribute="leading" id="VVH-bg-Qm6"/>
+                    <constraint firstItem="FVC-2Y-HiV" firstAttribute="centerY" secondItem="4T5-8N-aVM" secondAttribute="centerY" id="hua-c1-ZdO"/>
+                    <constraint firstAttribute="trailing" secondItem="W4X-X2-YUg" secondAttribute="trailing" constant="16" id="nJK-YR-zwn"/>
+                    <constraint firstItem="4T5-8N-aVM" firstAttribute="leading" secondItem="ftg-Gz-jlJ" secondAttribute="leading" constant="16" id="xRi-Vh-DT7"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="xHL-29-Sdo" id="deT-ne-JTq"/>
+                <outlet property="emailLabel" destination="W4X-X2-YUg" id="uMZ-iE-lml"/>
+                <outlet property="nameLabel" destination="FVC-2Y-HiV" id="ru0-oV-9Vu"/>
+                <outlet property="usernameLabel" destination="4T5-8N-aVM" id="Ean-Jg-npT"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

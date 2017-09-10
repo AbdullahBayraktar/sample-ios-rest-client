@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+typealias UsersCompletionHandler = (Error?) -> Void
+
 class UsersViewModel: NSObject {
     
     static let tableViewRowHeight: CGFloat = 100
@@ -30,9 +32,19 @@ class UsersViewModel: NSObject {
     /**
      Makes a service call via UsersDataManager to fetch user items.
      */
-    func fetchUsers() {
+    func fetchUsers(with completionHandler: @escaping UsersCompletionHandler) {
         
-        //TODO: To be impelemented
+        UsersDataManager.fetchUsers { [weak self](usersResponse, error) in
+            
+            if let users = usersResponse?.users {
+                
+                guard let `self` = self else { return }
+                
+                self.usersViewModels = users.map { self.viewModelFor(user: $0) }
+            }
+            
+            completionHandler(error)
+        }
     }
     
     //MARK: Helpers
