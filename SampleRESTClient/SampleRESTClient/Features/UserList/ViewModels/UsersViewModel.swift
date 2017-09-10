@@ -19,14 +19,6 @@ class UsersViewModel: NSObject {
     
     private(set) var usersViewModels = [CellRepresentable]()
     
-    /**
-     Initializes view model.
-     */
-    override init() {
-        //self.usersViewModels = user
-        super.init()
-    }
-    
     //MARK: Service Calls
     
     /**
