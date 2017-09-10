@@ -42,6 +42,8 @@
 		90163E811F64BC060026FAC4 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E801F64BC060026FAC4 /* UsersResponse.swift */; };
 		90163E831F64BDDD0026FAC4 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E821F64BDDD0026FAC4 /* Launcher.swift */; };
 		90163E861F64BEDE0026FAC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90163E851F64BEDE0026FAC4 /* Constants.swift */; };
+		90910B421F65749E00CFFDE6 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */; };
+		90910B441F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		90163E801F64BC060026FAC4 /* UsersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
 		90163E821F64BDDD0026FAC4 /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		90163E851F64BEDE0026FAC4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
+		90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+storyboards.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
