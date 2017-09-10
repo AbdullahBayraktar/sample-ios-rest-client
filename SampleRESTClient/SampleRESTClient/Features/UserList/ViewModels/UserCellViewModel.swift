@@ -27,9 +27,9 @@ class UserCellViewModel: NSObject {
     }
     
     func address() -> String {
-        let addressString = user.address.street +
-                            user.address.suite +
-                            user.address.city +
+        let addressString = user.address.street + " " +
+                            user.address.suite + " " +
+                            user.address.city + " " +
                             user.address.zipcode
         
         return addressString

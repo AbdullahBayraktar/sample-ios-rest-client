@@ -31,7 +31,11 @@ class PostsTableViewCell: UITableViewCell {
         
         selectionStyle = .none
         
-        //TODO: To be implemented
+        titleLabel.textColor = Colors.Gray.dark
+        bodyLabel.textColor = Colors.Gray.medium
+        
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
+        bodyLabel.font = UIFont.systemFont(ofSize: 15.0)
     }
     
     //MARK: Logic

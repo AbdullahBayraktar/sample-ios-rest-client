@@ -13,7 +13,7 @@ typealias UsersCompletionHandler = (Error?) -> Void
 
 class UsersViewModel: NSObject {
     
-    static let tableViewRowHeight: CGFloat = 100
+    static let tableViewRowHeight: CGFloat = 120
     
     //MARK: Properties
     

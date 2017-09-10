@@ -33,9 +33,17 @@ class UsersTableViewCell: UITableViewCell {
         
         selectionStyle = .none
         
-        //TODO: To be implemented
+        usernameLabel.textColor = Colors.Gray.dark
+        nameLabel.textColor = Colors.Gray.medium
+        emailLabel.textColor = Colors.Gray.dark
+        addressLabel.textColor = Colors.Gray.medium
+        
+        usernameLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
+        nameLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
+        emailLabel.font = UIFont.systemFont(ofSize: 15.0)
+        addressLabel.font = UIFont.systemFont(ofSize: 14.0)
     }
-    
+
     //MARK: Logic
     
     /**
