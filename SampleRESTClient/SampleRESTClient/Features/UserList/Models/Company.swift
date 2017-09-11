@@ -19,6 +19,12 @@ class Company {
     
     //MARK: Initializer
     
+    init() {
+        self.name = ""
+        self.catchPhrase = ""
+        self.bs = ""
+    }
+    
     required init(jsonData: SwiftyJSON.JSON) {
         
         self.name = jsonData["name"].stringValue

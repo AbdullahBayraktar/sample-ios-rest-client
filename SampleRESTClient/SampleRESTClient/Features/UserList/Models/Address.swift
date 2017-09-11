@@ -22,6 +22,15 @@ class Address {
     
     //MARK: Initializer
     
+    init() {
+        self.street = ""
+        self.suite = ""
+        self.city = ""
+        self.zipcode = ""
+        self.latitude = ""
+        self.longitude = ""
+    }
+    
     required init(jsonData: SwiftyJSON.JSON) {
         
         self.street = jsonData["street"].stringValue

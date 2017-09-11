@@ -22,7 +22,19 @@ class User {
     var website: String
     var company: Company
     
-    //MARK: Initializer
+    //MARK: Initializers
+    
+    init() {
+        
+        self.id = ""
+        self.name = ""
+        self.username = ""
+        self.email = ""
+        self.address = Address()
+        self.phone = ""
+        self.website = ""
+        self.company = Company()
+    }
     
     required init(jsonData: SwiftyJSON.JSON) {
         
