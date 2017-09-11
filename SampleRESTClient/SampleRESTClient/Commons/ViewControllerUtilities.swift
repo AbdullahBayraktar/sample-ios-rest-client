@@ -14,6 +14,11 @@ class ViewControllerUtilities {
     var loadingView: UIView = UIView()
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
+    /**
+     Shows an Activity Indicator on top of the specified view.
+     
+     - Parameter uiView: View the activity indicator shown on top of it.
+     */
     func showActivityIndicatory(uiView: UIView) {
         
         container.frame = uiView.frame
@@ -38,6 +43,12 @@ class ViewControllerUtilities {
         uiView.addSubview(container)
         activityIndicator.startAnimating()
     }
+    
+    /**
+     Hides the Activity Indicator on top of the specified view.
+     
+     - Parameter uiView: View the activity indicator shown on top of it.
+     */
     
     func hideActivityIndicator(uiView: UIView) {
         

@@ -12,6 +12,11 @@ typealias FetchUsersCompletionHandler = (UsersResponse?, Error?) -> Void
 
 @objc class UsersDataManager : DataManager {
     
+    /**
+     Fetches users from the server.
+     
+     - Parameter completionHandler: Callback after call is completed.
+     */
     class func fetchUsers(
         with completionHandler: @escaping FetchUsersCompletionHandler) {
         

@@ -12,6 +12,12 @@ typealias FetchPostsCompletionHandler = (PostsResponse?, Error?) -> Void
 
 class PostsDataManager : DataManager {
     
+    /**
+     Fetches posts from the server.
+     - Parameter userId: Id for the user which the posts are related to.
+     - Parameter completionHandler: Callback after call is completed.
+     */
+    
     class func fetchPosts(
         withUserId userId: String,
         completionHandler: @escaping FetchPostsCompletionHandler) {

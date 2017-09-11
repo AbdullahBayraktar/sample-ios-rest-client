@@ -15,6 +15,14 @@ public class AlamofireWrapper: NSObject {
     
     //MARK: - Request Methods
     
+    /// Creates a DataRequest using the request method of Alamofire to retrieve the contents of the specified url,
+
+    /// - parameter urlString: The URL.
+    /// - parameter method: The HTTP method.
+    /// - parameter parameters: The parameters. `nil` by default.
+    /// - parameter encoding: The parameter encoding. `URLEncoding.default` by default.
+    /// - parameter headers: The HTTP headers.
+    
     public class func request(
         _ method: HTTPMethod,
         urlString: String,
@@ -51,6 +59,13 @@ public class AlamofireWrapper: NSObject {
     
     //MARK: - Public
     
+    /// Creates a Get Request using the request method of Alamofire to retrieve the contents of the specified url,
+    
+    /// - parameter urlString: The URL.
+    /// - parameter parameters: The parameters. `nil` by default.
+    /// - parameter headers: The HTTP headers.
+    /// - parameter completionHandler: The callback of the reqest.
+    
     public class func requestGet(
         _ urlString: String,
         parameters: Parameters? = nil,
@@ -59,6 +74,13 @@ public class AlamofireWrapper: NSObject {
         
         self.request(.get, urlString: urlString, parameters: parameters, encoding: URLEncoding.default, headers: headers, completionHandler: completionHandler)
     }
+    
+    /// Creates a Post Request using the request method of Alamofire to retrieve the contents of the specified url,
+    
+    /// - parameter urlString: The URL.
+    /// - parameter parameters: The parameters. `nil` by default.
+    /// - parameter headers: The HTTP headers.
+    /// - parameter completionHandler: The callback of the reqest.
     
     public class func requestPost(
         _ urlString: String,
