@@ -55,6 +55,7 @@
 		90910B421F65749E00CFFDE6 /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */; };
 		90910B441F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */; };
 		90910B461F6601E900CFFDE6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B451F6601E900CFFDE6 /* Colors.swift */; };
+		90910B481F6609C700CFFDE6 /* ViewControllerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90910B471F6609C700CFFDE6 /* ViewControllerUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,7 @@
 		90910B411F65749E00CFFDE6 /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
 		90910B431F6574CD00CFFDE6 /* UIStoryboard+storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+storyboards.swift"; sourceTree = "<group>"; };
 		90910B451F6601E900CFFDE6 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		90910B471F6609C700CFFDE6 /* ViewControllerUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,6 +419,7 @@
 			children = (
 				90163E851F64BEDE0026FAC4 /* Constants.swift */,
 				90910B451F6601E900CFFDE6 /* Colors.swift */,
+				90910B471F6609C700CFFDE6 /* ViewControllerUtilities.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -586,6 +589,7 @@
 				90910B421F65749E00CFFDE6 /* StoryboardIdentifier.swift in Sources */,
 				90163E371F641BBC0026FAC4 /* UsersViewModel.swift in Sources */,
 				90163E811F64BC060026FAC4 /* UsersResponse.swift in Sources */,
+				90910B481F6609C700CFFDE6 /* ViewControllerUtilities.swift in Sources */,
 				90163E861F64BEDE0026FAC4 /* Constants.swift in Sources */,
 				90163E901F6567F30026FAC4 /* PostsViewModel.swift in Sources */,
 			);

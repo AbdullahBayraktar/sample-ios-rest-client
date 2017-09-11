@@ -72,7 +72,13 @@ class PostsViewController: UIViewController {
     
     func fetchData() {
         
+        ViewControllerUtilities().showActivityIndicatory(uiView: view)
+        
         viewModel.fetchPosts { [weak self](error) in
+            
+            if let view = self?.view {
+                ViewControllerUtilities().hideActivityIndicator(uiView: view)
+            }
             
             if error == nil {
                 
